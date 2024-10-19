@@ -2,7 +2,7 @@
 
 ## Introduction
 
-BERT stands for Bidirectional Encoder Representations from `transformers` and is a language representation model by Google. It uses two steps, pre-training and fine-tuning, to create state-of-the-art models for a wide range of tasks. BERT architecture is a stack of `transformer`’s Encoder, the Transformer in NLP is a novel architecture that aims to solve sequence-to-sequence tasks while handling long-range dependencies with ease.
+BERT stands for Bidirectional Encoder Representations from `transformers` and is a language representation model by Google. It uses two steps, pre-training and fine-tuning, to create state-of-the-art models for a wide range of tasks. BERT architecture is a stack of `transformers`’s Encoder, the Transformer in NLP is a novel architecture that aims to solve sequence-to-sequence tasks while handling long-range dependencies with ease.
 
 `TFBertForSequenceClassification` is a TensorFlow-based model from Hugging Face's `transformers` library, specifically designed for sequence classification tasks (e.g., sentiment analysis, spam detection) using BERT. To use this model for sentiment analysis, fine-tuning is necessary. In the context of NLP, fine-tuning involves taking a BERT model that has been pre-trained on a large corpus of text and further training it on a labeled dataset for sentiment analysis. The model’s parameters are slightly adjusted to specialize in classifying sentiment while retaining the general language understanding learned during pre-training.
 
